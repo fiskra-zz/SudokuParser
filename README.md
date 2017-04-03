@@ -24,6 +24,7 @@ The application is deployable on Glassfish(4.1) application server.
 #### How to call
 
 http://localhost:8080/SudokuParser-web/rest/solve?input=(sudokuPattern)
+* sudokuPattern should be like this: input=x,6,3,4,9,x,x,x,1,x,x,x,x,x,x,7,x,9,x,1,9,x,x,x,x,x,x,x,x,1,x,x,2,9,3,x,9,x,x,1,x,7,x,x,2,x,7,8,9,x,x,4,x,x,x,x,x,x,x,x,8,2,x,3,x,6,x,x,x,x,x,x,4,x,x,x,2,9,1,7,x 
 
 #### Build
 Maven is the preferential build manager. 
